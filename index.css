@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 70px; /* Adjust for fixed navbar */
+  }
+  
+  .navbar {
+    background-color: #212121; /* Dark theme for navbar */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #f8f9fa !important;
+  }
+  
+  #hero {
+    background-image: url('hero-bg.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  #hero .btn-primary {
+    background-color: #f05454;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #212121;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  footer {
+    background-color: #212121;
+    color: #f8f9fa;
+    padding: 20px 0;
+  }
+  

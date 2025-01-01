@@ -1,11 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home-page-exam</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guitar Store</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Alvin</h1>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hello Hallyu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Guitars</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Albums</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Merch</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="text-center">
+    <div class="container">
+      <h1>Discover the Finest Guitars & Kpop Merch</h1>
+      <p>Explore a wide range of guitars, accessories, and Kpop merchandise all in one place.</p>
+      <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="guitar1.jpg" class="d-block w-100" alt="Guitar 1">
+      </div>
+      <div class="carousel-item">
+        <img src="guitar2.jpg" class="d-block w-100" alt="Guitar 2">
+      </div>
+      <div class="carousel-item">
+        <img src="guitar3.jpg" class="d-block w-100" alt="Guitar 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Heading -->
+  <section class="text-center py-5">
+    <h2>Our Products</h2>
+  </section>
+
+  <!-- Cards -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="guitar4.jpg" class="card-img-top" alt="Electric Guitar">
+          <div class="card-body">
+            <h5 class="card-title">Electric Guitar</h5>
+            <p class="card-text">High-quality electric guitar perfect for rock and blues.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="album.jpg" class="card-img-top" alt="Kpop Album">
+          <div class="card-body">
+            <h5 class="card-title">Kpop Album</h5>
+            <p class="card-text">Exclusive albums from your favorite Kpop bands.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="guitar5.jpg" class="card-img-top" alt="Acoustic Guitar">
+          <div class="card-body">
+            <h5 class="card-title">Acoustic Guitar</h5>
+            <p class="card-text">Perfectly crafted acoustic guitars for rich sound.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 Hello Hallyu. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
